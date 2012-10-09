@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	
 	<!-- Section -->
-	<section>
+	<section class="column wide">
 	
 		<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 	
