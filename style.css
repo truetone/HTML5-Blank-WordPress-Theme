@@ -32,32 +32,22 @@ License URI:	http://opensource.org/licenses/mit-license.php
    ========================================================================== */
    
    /* Add your site structure here */
-   body {
-   	padding: 1em;
+   .wrapper {
+		max-width: 1200px; /* This is an admittedly arbitrary number */
+   		padding: 1em;
 	}
 
 /* =============================================================================
    Media Queries
    ========================================================================== */
 
-   /* 320px and greater */
-   @media only screen and (min-width: 320px) {
-	   /* Styles here */
-   }
-   
    /* 480px and greater */
-   @media only screen and (min-width: 480px) {
-	   /* Styles here */
-   }
-   
-   /* 768px and greater */
-   @media only screen and (min-width: 768px) {
-	   /* Styles here */
-   }
-   
-   /* 1024px and greater */
-   @media only screen and (min-width: 1024px) {
-	   /* Styles here */
+   @media only screen and (max-width: 530px) {
+	/* Styles here */
+	#sidebar {
+		clear: both;
+		float: none;
+		width: auto;
    }
    
    /* Retina screens */
