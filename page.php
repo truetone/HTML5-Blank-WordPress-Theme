@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	
 	<!-- Section -->
-	<section>
+	<section class="column wide">
 	
 		<h1><?php the_title(); ?></h1>
 	
