@@ -2,8 +2,8 @@
 Theme Name: 	HTML5 Blank (Truetone's Fork)
 Theme URI: 		http://html5blank.com
 Description: 	HTML5 Blank WordPress Theme
-Version: 		1.2.0
-Author: 		Todd Motto (@toddmotto) with customizations from Tony Thomas (@truetone)
+Version: 		1.2.1
+Author: 		Todd Motto (@toddmotto)
 Author URI: 	http://www.toddmotto.com
 Tags: 			Blank, HTML5, CSS3
 
@@ -25,6 +25,16 @@ License URI:	http://opensource.org/licenses/mit-license.php
 	        url('fonts/font-name.svg#font-name') format('svg');
 	    font-weight:normal;
 	    font-style:normal;
+	}
+	
+	body {
+		font-weight:300; /* Better supported than 'lighter' attribute */
+		-webkit-font-smoothing:antialiased; /* Antialiased font for great smoothing */
+		-moz-font-smoothing:antialiased;
+		-o-font-smoothing:antialiased;
+		font-smoothing:antialiased;
+		text-rendering:optimizeLegibility; /* Optimise legibility for some CSS3 kerning */
+		color:#444; /* Lighter on the eyes than #000 Black */
 	}
 	
 /* =============================================================================
