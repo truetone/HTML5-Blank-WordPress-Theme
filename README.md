@@ -67,3 +67,8 @@ There are a few ways to get involved, submit a Pull Request, or submit a comment
 * Category support for showing the Category of post
 * Author support showing the author
 * Demo Custom Page Template for expansion
+
+## My Mods
+* Added [Substratum](https://github.com/truetone/Substratum) as a submodule and enqueued it in functions.php
+* Added [Normalize](https://github.com/necolas/normalize.css) as a submodule and deleted pre-existing CSS reset and enqueued it in functions.php
+* Applied Substratum classes to create columnar layouts
