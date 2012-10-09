@@ -36,6 +36,25 @@ License URI:	http://opensource.org/licenses/mit-license.php
 		max-width: 1200px; /* This is an admittedly arbitrary number */
    		padding: 1em;
 	}
+	.menu {
+		list-style: none;
+	}
+	.horizontal {
+		float: left;
+	}
+	.top-nav-menu {
+		margin: 0;
+		padding: 0;
+	}
+	.top-nav-menu li {
+		display: inline-block;
+	}
+	.top-nav-menu a {
+		display: inline-block;
+		font-weight: bold;
+		padding: 1em;
+		text-decoration: none;
+	}
 
 /* =============================================================================
    Media Queries

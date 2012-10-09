@@ -35,7 +35,7 @@
 			
 			<!-- Nav -->
 			<nav>
-				<?php wp_nav_menu(array('menu_class' => 'nav-menu', 'theme_location' => 'header-menu')); ?>
+				<?php wp_nav_menu(array('menu_class' => 'top-nav-menu horizontal menu-list', 'menu_id' => false, 'theme_location' => 'header-menu')); ?>
 			</nav>
 			<!-- /Nav -->
 			
