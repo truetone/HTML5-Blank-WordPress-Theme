@@ -31,7 +31,7 @@
 			<!-- Logo -->
 			<div id="logo">
 				<a href="<?php echo home_url(); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+					<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="This is the logo or header image." />
 				</a>
 			</div>
 			<!-- /Logo -->

@@ -29,6 +29,21 @@ if (function_exists('add_theme_support'))
     // Add Menu Support
     add_theme_support('menus');
 
+	global $wp_version;
+
+	if (version_compare($wp_version, '3.4', '>='))
+	{
+		$args = array(
+			'width' => 412,
+			'height' => 124,
+			'default-image' => get_template_directory_uri() . '/img/logo.png',
+			'uploads' => true,
+			);
+
+		// Add custom header image support.
+		add_theme_support('custom-header', $args);
+	}
+
     // Add Thumbnail Theme Support
     add_theme_support('post-thumbnails');
     add_image_size('large', 700, '', true); // Large Thumbnail
