@@ -72,3 +72,4 @@ There are a few ways to get involved, submit a Pull Request, or submit a comment
 * Added [Substratum](https://github.com/truetone/Substratum) as a submodule and enqueued it in functions.php
 * Added [Normalize](https://github.com/necolas/normalize.css) as a submodule and deleted pre-existing CSS reset and enqueued it in functions.php
 * Applied Substratum classes to create columnar layouts
+* Added custom header functionality.
